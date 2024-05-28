@@ -57,6 +57,7 @@ const supportedLang: string[] = [
     "kt", // Kotlin
     "lua", // Lua
     "mjs", // Javascript
+    "md", // HTML
     "php", // PHP
     "pl", // Perl
     "py", // Python
@@ -147,6 +148,7 @@ const cmtSyntaxDouble: {
     [key: string]: DoubleLineCommentSyntax;
 } = {
     html: { first: "<!-- ", last: " -->" },
+    md: { first: "<!-- ", last: " -->" },
     twig: { first: "{# ", last: " #}" },
     blade: { first: "{{-- ", last: " --}}" },
     hbs: { first: "{{!-- ", last: " --}}" },
