@@ -57,7 +57,7 @@ const supportedLang: string[] = [
     "kt", // Kotlin
     "lua", // Lua
     "mjs", // Javascript
-    "md", // HTML
+    "md", // Markdown
     "php", // PHP
     "pl", // Perl
     "py", // Python
